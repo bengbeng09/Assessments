@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#urlInput {
+    width: 300px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#fetchButton {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.response-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.response-left,
+.response-right {
+    flex: 1;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+    
+.scrollable-container {
+    max-height: 300px; /* Adjust this height as needed */
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
